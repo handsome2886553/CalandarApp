@@ -36,9 +36,11 @@
       "package.json"
     ],
     "win": {
-      "target": "nsis",
-      "icon": "assets/icon.ico"
+      "target": "dir"
     },
+    "forceCodeSigning": false,
+    "nodeGypRebuild": false,
+    "buildDependenciesFromSource": false,
     "mac": {
       "target": "dmg",
       "icon": "assets/icon.icns"
